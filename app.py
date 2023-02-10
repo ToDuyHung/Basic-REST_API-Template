@@ -17,5 +17,5 @@ async def image_attribute_extraction(input_data: Product):
     return response
 
 if __name__ == "__main__":
-    # uvicorn.run("app:app", host='localhost', port=35515, reload=True, debug=True, workers=1)
-    uvicorn.run("app:app", host='172.29.13.24', port=8080, reload=True, debug=True, workers=1)
+    uvicorn.run("app:app", host='localhost', port=8080, reload=True, debug=True, workers=1)
+    
